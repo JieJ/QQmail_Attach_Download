@@ -79,22 +79,7 @@ class qqmail_attachment(object):
 
 
 if __name__ == '__main__':
-    headers = {
-        "cookie":'''o_cookie=781566599; pgv_pvid=3129801600; pt_clientip=26b20a
-        bf81e27119; pt_serverip=1a250abf0e8d51ff; ptui_loginuin=781566599; ptcz
-        =68851eae8980872bcd36148713d3f99faaa9ec915c966d43c254180a145a97f8; pt2g
-        guin=o0781566599; uin=o0781566599; skey=@ZVxP14kSI; p_uin=o0781566599;
-        p_skey=QI2hjlLAOWOuzKh805*fUJlxaSVFxpWHC726vHg8G9Y_; pt4_token=fHZTXQCR
-        26kEGYcmLkNxWUyCxA1-trDnXf1DWbn1aE8_; wimrefreshrun=0&; qm_antisky=7815
-        66599&cc676b78af40376e2bdcd2508fa9b0f943bb5ab51d1f7cd32b15eb49af86efa3;
-        qm_flag=0; qqmail_alias=781566599@qq.com; sid=781566599&b88b209729ebc70f
-        e4e640180481b119,qUUkyaGpsTEFPV091ektoODA1KmZVSmx4YVNWRnhwV0hDNzI2dkhnOE
-        c5WV8.; qm_username=781566599; qm_sid=b88b209729ebc70fe4e640180481b119,
-        qUUkyaGpsTEFPV091ektoODA1KmZVSmx4YVNWRnhwV0hDNzI2dkhnOEc5WV8.; qm_domain
-        =https://mail.qq.com; qm_ptsk=781566599&@ZVxP14kSI; foxacc=781566599&0;
-        ssl_edition=sail.qq.com; edition=mail.qq.com; username=781566599&781566
-        599; webp=1; ptisp=ctc; new_mail_num=781566599&226; CCSHOW=000001'''
-    }
+    headers = {}
     store_dir = 'D:\\mailbox'
     download_test = qqmail_attachment(headers, store_dir)
 
